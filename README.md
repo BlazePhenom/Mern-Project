@@ -4,8 +4,8 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application that al
 
 ## 🚀 Live Demo Links
 
-* **Live Application (Frontend):** `[Your Deployed Netlify/Vercel URL Here]`
-* **Live API (Backend):** `[Your Deployed Render URL Here]`
+* **Live Application (Frontend):** `https://mern-project-bookmarked.netlify.app`
+* **Live API (Backend):** `https://mern-project-mbbs.onrender.com/`
 
 ---
 
