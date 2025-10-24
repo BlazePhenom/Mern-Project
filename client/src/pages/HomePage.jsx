@@ -10,7 +10,7 @@ const HomePage = () => {
     // This fetches ALL bookmarks from our public route
     const fetchAllBookmarks = async () => {
       try {
-        const res = await axios.get('http://localhost:5000/api/bookmarks');
+        const res = await axios.get('https://mern-project-mbbs.onrender.com//api/bookmarks');
         setBookmarks(res.data.data);
       } catch (error) {
         console.error('Error fetching bookmarks:', error);

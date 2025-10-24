@@ -12,7 +12,7 @@ const BookmarkForm = ({ onBookmarkAdded }) => {
     e.preventDefault();
     try {
       // The token is already in axios headers (from AuthContext)
-      const res = await axios.post('http://localhost:5000/api/bookmarks', {
+      const res = await axios.post('https://mern-project-mbbs.onrender.com//api/bookmarks', {
         title,
         url,
         description,

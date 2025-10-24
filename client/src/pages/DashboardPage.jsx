@@ -13,7 +13,7 @@ const DashboardPage = () => {
     const fetchMyBookmarks = async () => {
       try {
         // Token is already in headers
-        const res = await axios.get('http://localhost:5000/api/bookmarks/mybookmarks');
+        const res = await axios.get('https://mern-project-mbbs.onrender.com//api/bookmarks/mybookmarks');
         setBookmarks(res.data.data);
       } catch (error) {
         console.error('Error fetching bookmarks:', error);

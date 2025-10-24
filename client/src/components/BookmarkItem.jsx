@@ -7,7 +7,7 @@ const BookmarkItem = ({ bookmark, onBookmarkDeleted }) => {
   const handleDelete = async () => {
     if (window.confirm('Are you sure you want to delete this?')) {
       try {
-        await axios.delete(`http://localhost:5000/api/bookmarks/${bookmark._id}`);
+        await axios.delete(`https://mern-project-mbbs.onrender.com//api/bookmarks${bookmark._id}`);
         // Call the parent's delete function to update state
         onBookmarkDeleted(bookmark._id); 
       } catch (error) {
